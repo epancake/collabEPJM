@@ -1,10 +1,11 @@
-var coconuts = [1, 4, 6, 8, 4, 9];
 
-function returnEvens(array) {
-  var evenCoconuts = 1;
+var nums = [1, 2, 3, 4, 5];
+
+function multiply(array) {
+  var result = 1;
   for (var i = 0; i < array.length; i++) {
-    evenCoconuts = evenCoconuts * array[i]
-  } return evenCoconuts;
-} 
-
-returnEvens(coconuts)
+    result = result * array[i];
+  }
+  return result;
+}
+console.log(multiply(nums));
