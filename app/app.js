@@ -12,11 +12,11 @@ console.log(multiply(nums));
 
 var students = [
   {
-    name: "Clyde"
+    name: "Clyde",
     age: 100
   },
   {
-    name: "Pancake"
+    name: "Pancake",
     age: 21
   }
-]
+];
