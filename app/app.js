@@ -9,3 +9,14 @@ function multiply(array) {
   return result;
 }
 console.log(multiply(nums));
+
+var students = [
+  {
+    name: "Clyde"
+    age: 100
+  },
+  {
+    name: "Pancake"
+    age: 21
+  }
+]
